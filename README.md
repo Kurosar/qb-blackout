@@ -1,18 +1,18 @@
 This is an enhanced blackout script compatible with QB-Core
 
-**Features :**   
-- Configurable
-- Plays a sound for clients when the blackout starts/ends
-- Displays a notification for clients when the blackout starts/ends
+**Features :**     
+- Configurable  
+- Plays a sound for clients when the blackout starts/ends  
+- Displays a notification for clients when the blackout starts/ends  
 
+ 
+**Installation**  
+You need to move the qb-blackout folder in your server's resource folder and ensure it in your server.cfg  
+Inside the folder qb-blackout, move the content that is inside "_MOVE_CONTENT_TO_INTERACT_SOUND" to interact-sound\client\html\sounds  
+If you don't have "interact-sound", you can download it here : https://github.com/plunkettscott/interact-sound  
 
-**Installation**
-You need to move the qb-blackout folder in your server's resource folder and ensure it in your server.cfg
-Inside the folder qb-blackout, move the content that is inside "_MOVE_CONTENT_TO_INTERACT_SOUND" to interact-sound\client\html\sounds
-If you don't have "interact-sound", you can download it here : https://github.com/plunkettscott/interact-sound
-
-**Screenshot**
-![](https://i.imgur.com/BSYlM9X.png)
+**Screenshot**  
+![](https://i.imgur.com/BSYlM9X.png)  
 
 ```lua
 Config = {}
@@ -25,3 +25,4 @@ Config.notificationtime = 10000 -- Time in ms to show the notification for clien
 Config.notificationenable = true -- Enable/Disable the notification for clients
 
 ```
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKurosar%2Fqb-blackout&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
