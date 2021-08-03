@@ -11,6 +11,9 @@ You need to move the qb-blackout folder in your server's resource folder and ens
 Inside the folder qb-blackout, move the content that is inside "_MOVE_CONTENT_TO_INTERACT_SOUND" to interact-sound\client\html\sounds
 If you don't have "interact-sound", you can download it here : https://github.com/plunkettscott/interact-sound
 
+**Screenshot**
+![](https://i.imgur.com/BSYlM9X.png)
+
 ```lua
 Config = {}
 
