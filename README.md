@@ -12,7 +12,8 @@ Inside the folder qb-blackout, move the content that is inside "_MOVE_CONTENT_TO
 If you don't have "interact-sound", you can download it here : https://github.com/plunkettscott/interact-sound  
 
 **Screenshot**  
-![](https://i.imgur.com/BSYlM9X.png)  
+![image](https://user-images.githubusercontent.com/4887819/127985749-eb864ae0-2e9b-41a7-aaa2-cebef30a92b7.png)
+
 
 ```lua
 Config = {}
